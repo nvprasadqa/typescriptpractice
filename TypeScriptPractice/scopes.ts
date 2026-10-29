@@ -5,6 +5,8 @@ function testLocalScope() {
   const constantVar = "I am constant";
   console.log(localVar);  
   if(true){
+    let age = 45;
+    age = 67;
     var gh = 13;
     let ch = 12;
     console.log(ch);
@@ -13,6 +15,7 @@ function testLocalScope() {
 //   console.log(ch);
   console.log(gh);
 }
+
 testLocalScope();
 //console.log(globalVar); // Error: globalVar is not defined outside the function
 //console.log(constantVar); // Error: constantVar is not defined outside the function

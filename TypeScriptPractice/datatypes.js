@@ -10,3 +10,5 @@ console.log(value);
 // //3. Declare Value Without Type
 // let country = "India";
 // console.log(country);
+
+console.log(x)
