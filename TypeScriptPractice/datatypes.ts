@@ -6,6 +6,14 @@ value = 45;
 console.log(value);
 
 
+let num:number|string = 10;
+num = "Hello";
+console.log(num);
+
+
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-class Rectangle{
+class Rectangle {
 
     width: number;
     height: number;
@@ -10,10 +10,15 @@ class Rectangle{
      area(): number {
         return this.width * this.height;
     }
+ 
+    
+     
+
 }
 
 
 const rectObject =new Rectangle(10,20);
 console.log(rectObject.area());
+ // This line will cause an error because makeSound is not defined in Rectangle class
 
 

@@ -11,4 +11,3 @@ console.log(value);
 // let country = "India";
 // console.log(country);
 
-console.log(x)

@@ -4,16 +4,17 @@ function testLocalScope() {
   var globalVar = "I am global";
   const constantVar = "I am constant";
   console.log(localVar);  
-  if(true){
+  if(true) {
     let age = 45;
     age = 67;
     var gh = 13;
     let ch = 12;
-    console.log(ch);
+    console.log(localVar);
+    console.log(gh);
     
   }// if close
-//   console.log(ch);
-  console.log(gh);
+   console.log(gh);
+  console.log(ch);
 }
 
 testLocalScope();
