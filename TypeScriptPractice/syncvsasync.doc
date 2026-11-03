@@ -1,0 +1,9 @@
+Synchronous: Synchronous code will be executed line by line and it will block the next lines 
+until previous lines are executed completely.
+Asynchronous: Asynchronous code does not block execution. It starts an operation and allow the program 
+to continue executing other statments while waiting for the operation to complete.
+
+
+// playwright browser actions uch a click, fill and goto are Asynchronous because they involve communication
+with the browser and can take time to complete. Therefore they return Promises. and we use await to 
+make sure the next step does not execute until the current action finishes.
