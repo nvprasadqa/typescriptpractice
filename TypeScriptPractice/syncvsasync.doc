@@ -7,3 +7,19 @@ to continue executing other statments while waiting for the operation to complet
 // playwright browser actions uch a click, fill and goto are Asynchronous because they involve communication
 with the browser and can take time to complete. Therefore they return Promises. and we use await to 
 make sure the next step does not execute until the current action finishes.
+
+
+lanuch google.com chrome browser
+search car product
+async 
+await
+
+launchbrowser-- async operation
+Promise --
+
+open broser gmail
+sign in 
+
+async operations
+
+

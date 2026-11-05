@@ -11,7 +11,7 @@ console.log("line 3");
 // incase if setTimout is not asynchronous ie if it synchronous then the output will be line 1, line 2, line 3. But in this case it is asynchronous 
 // so the output will be line 1, line 3, line 2.  and line2 execute ayye varaku line 3 execute avodu apudu dani synchronous antaru
 // e setTimeout function next unna statement or function ni block cheyadu kabatti so manam asynchronous ga cheppukuntam. 
-// stop chese synchronou code yela untadi ante
+// stop chese synchronous code yela untadi ante
 
 
 
